@@ -1,0 +1,14 @@
+name: arcdocs-jb
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.0.5
+  - jupyterlab
+  - matplotlib
+  - pip=20
+  - pip:
+    - jupyter-book
+    - ghp-import
