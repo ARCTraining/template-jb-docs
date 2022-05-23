@@ -10,11 +10,12 @@ on:
 
 # This job installs dependencies and builds the book
 jobs:
-  # test build on multiple OS
-  matrix:
-    os: [macos-latest, windows-latest, ubuntu-latest]
   deploy-book:
     runs-on: ${{ matrix.os }}
+    strategy:
+      # test build on multiple OS
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
     steps:
     - uses: actions/checkout@v2
     - uses: conda-incubator/setup-miniconda@v2
