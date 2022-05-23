@@ -1,6 +1,7 @@
 name: arcdocs-jb
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python
   - pandas=1.0.5
