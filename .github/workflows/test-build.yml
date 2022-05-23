@@ -15,7 +15,7 @@ jobs:
     strategy:
       # test build on multiple OS
       matrix:
-        os: [ubuntu-latest]
+        os: [macos-latest, windows-latest, ubuntu-latest]
     steps:
     - uses: actions/checkout@v2
     - uses: conda-incubator/setup-miniconda@v2
