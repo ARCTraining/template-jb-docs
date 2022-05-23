@@ -10,6 +10,9 @@ on:
 
 # This job installs dependencies and builds the book
 jobs:
+  # test build on multiple OS
+  matrix:
+    os: [macos-latest, windows-latest, ubuntu-latest]
   deploy-book:
     runs-on: ubuntu-latest
     steps:
