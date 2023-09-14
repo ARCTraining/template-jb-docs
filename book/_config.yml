@@ -3,7 +3,7 @@ title: Template documentation jupyter book
 author: University of Leeds Research Computing Team
 logo: ./assets/img/logo/logo.png
 email: ask-rc@leeds.ac.uk
-copyright: "2020"
+copyright: "2023"
 
 # execute settings
 execute:
@@ -19,12 +19,6 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   baseurl                   : "https://arctraining.github.io/template-jb-docs"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
-  navbar_footer_text        :
-    'Visit the <a href="https://arcleeds.github.io/">Research Computing Home Site</a>
-    <div>
-    This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-    </div>'  # Will be displayed underneath the left navbar.
-
 
 # Launch button settings
 launch_buttons:
